@@ -42,6 +42,7 @@ a:active {
   border-radius: 4px;
   height: 6rem;
   margin-bottom: 1rem;
+  width: 6rem;
 }
 
 #name {
@@ -59,5 +60,6 @@ hr {
 }
 
 #contact {
+  line-height: 1.25em;
   list-style: none;
 }
