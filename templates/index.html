@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Michal Janočko – Software developer</title>
     <link rel="stylesheet" href="{{ get_url(path="css/main.css") }}" />
+    <script>
+
+    </script>
   </head>
   <body>
     <main>
+      <img
+        src="{{ get_url(path="images/profile_picture.jpg") }}"
+        id="profile-picture"
+      />
       <h1 id="name">Michal Janočko</h1>
-      <p id="title">Software developer</p>
+      <p id="dev">Software developer</p>
       <hr />
       <ul id="contact">
         <li>
           <a href="https://github.com/michaljanocko">
-            <img src="{{ get_url(path="svg/icons/github.svg") }}" />
             <b>Github</b>/michaljanocko
           </a>
+        </li>
+        <li>
+          <a href="mailto:michal@janocko.com">michal@janocko.com</a>
         </li>
       </ul>
     </main>

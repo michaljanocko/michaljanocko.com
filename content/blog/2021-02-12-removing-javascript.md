@@ -1,4 +1,10 @@
 +++
+author = "Michal Janočko"
+title = "Removing JS/TS from my life"
 +++
 
-# JS sucks
+Yes, Javascript sucks. 
+
+## Frontend
+
+Where Javascript has lots of leverage is 

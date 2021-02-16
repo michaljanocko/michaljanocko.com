@@ -1,0 +1,63 @@
+/* General */
+
+:root {
+  --bg: #222;
+  --fg: #eee;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: "Times New Roman", Times, serif;
+  font-size: calc(0.256vw + 15.077px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  line-height: 0.95;
+}
+
+a {
+  color: inherit;
+  border-bottom: 1.5px dotted var(--fg);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  border-bottom-style: solid;
+}
+
+/* Homepage */
+
+#profile-picture {
+  border-radius: 4px;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+#name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.1rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 1.5px solid var(--fg);
+  margin: 0.5em auto 0.5em 0;
+  width: 1.5em;
+}
+
+#contact {
+  list-style: none;
+}
